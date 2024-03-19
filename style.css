@@ -933,3 +933,14 @@
     }
 
 }
+
+
+/* animation for all elements */
+.hoverAnimation{
+    transition: all 0.3s ease;
+}
+
+/* psuedo class */
+.hoverAnimation:hover{
+    transform: scale(0.96);
+}
