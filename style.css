@@ -2,15 +2,23 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: "Work Sans";
-    
+    font-family: "Work Sans";   
+}
+
+html{
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 #container{
     max-width: 100%;
-    background-color: #2b2b2b;
-    ;
-    /* padding-left: 11px; */
+    background-color: #2b2b2b; 
 }
 
 /* header */
@@ -105,7 +113,6 @@
 /* subtrend */
 #trend{
     max-width: 100%;
-    /* padding-left: 8%; */
 }
 
 .trendHead{
@@ -171,8 +178,6 @@
     font-size: 16px;
     line-height: 140% ;
     color: #fff;
-    
-
 }
 
 /* creators */
@@ -486,22 +491,8 @@
     line-height: 140%;
     padding-left: 20px;
     border: 0;
-    /* position: relative; */
 }
 
-/* .subBttn{
-    width: 211px;
-    height: 60px;
-    border-radius: 20px;
-    background-color: #A259FF;
-    border: 0;
-    font-size: 16px;
-    line-height: 140%;
-    font-weight: 600;
-    color: #fff;
-    position: absolute;
-    right: 179px;
-} */
 
 /* footer */
 #footer{
@@ -545,65 +536,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
+
+
   /* header */
 @media (max-width:308px) {
 
