@@ -1,0 +1,108 @@
+.rankdiv{
+    height: 84px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rankdigit{
+    background-color: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    color: #858584;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.rankImage{
+    width: 60px;
+    height: 60px;
+}
+
+.rankName{
+    font-size: 22px;
+    line-height: 140%;
+    font-weight: 600;
+    text-align: start;
+    color: #fff;
+}
+
+.rankchange{
+    font-family: "Space Mono", monospace;
+    color: #00AC4F;
+    font-size: 16px;
+    line-height: 140%;
+
+}
+
+.rankSold{
+    font-family: "Space Mono", monospace;
+    color: #fff;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.rankVolume{
+    font-family: "Space Mono", monospace;
+    color: #fff;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+@media (max-width:1199.8px) {
+    .rankDisplay{
+        display: none;
+    }
+    
+}
+
+@media (max-width:991.8px) {
+    .rankDisplay2{
+        display: none;
+    }
+}
+
+@media (max-width:767.8px) {
+    .rankdigit{
+        width: 20px;
+        height: 18px;
+        font-size: 12px;
+    }
+    
+    .rankName{
+        font-size: 16px;
+        line-height: 140%;
+        font-weight: 500;
+    }
+
+    .rankVolume{
+        font-size: 10px;
+        line-height: 110%;
+    }
+}
+
+@media (max-width:575.8px) {
+    .rankdigit{
+        background-color: transparent;
+        font-size: 19px;
+    }
+
+    .rankImage{
+        width: 37px;
+        height: 36px;
+    
+    }
+    
+    .rankName{
+        font-size: 11px;
+    }
+
+    .rankVolume{
+        font-size: 10px;
+    }
+}

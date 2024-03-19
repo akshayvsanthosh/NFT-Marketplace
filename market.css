@@ -1,0 +1,25 @@
+.marketHead{
+    color: #fff;
+    font-size: 51px;
+    line-height: 110%;
+    font-weight: 600;
+    margin-top: 145px;
+}
+
+.marketpara{
+    color: #fff;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+
+@media (max-width:767.8px) {
+    .marketCard2{
+        display: none;
+    }
+
+    .discovercard3{
+        display: none !important;
+    }
+    
+}

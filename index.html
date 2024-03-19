@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nft-market-place</title>
+    <!-- title-logo -->
+    <link rel="icon" href="./images/titlelogo.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- GFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div id="container" class="container">
+        <!-- header -->
+        <section id="header">
+            <nav class="navbar navbar-expand-lg bg-transparent pt-3 ps-0 ps-sm-5">
+                <div class="container-fluid ps-0">
+                    <a class="navbar-brand img-fluid navwidth" href="./index.html">
+                        <img class="navLogo" src="./images/logo.png" alt="LOGO">
+                    </a>
+                    <button class="navbar-toggler text-white border-0 ps-0 ps-sm-2 pe-0 pe-sm-2" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class=""><i class='bx bx-menu-alt-left bx-tada bx-sm'
+                                style='color:#ffffff'></i></i></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">NFT Marketplace</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul
+                                class="navbar-nav justify-content-end flex-grow-1 align-items-start  align-items-lg-center">
+                                <li class="nav-item ms-4 me-3">
+                                    <a class="nav-link active navLinkText text-white fw-semibold" aria-current="page"
+                                        href="./market.html">Marketplace</a>
+                                </li>
+                                <li class="nav-item ms-4 me-3">
+                                    <a class="nav-link navLinkText text-white fw-semibold " href="./ranking.html">Rankings</a>
+                                </li>
+                                <li class="nav-item ms-4 me-3">
+                                    <a class="nav-link  navLinkText text-white fw-semibold" href="#">Connect a
+                                        wallet</a>
+                                </li>
+                                <li class="nav-item ms-4 me-3">
+                                    <a class="nav-link navLinkText text-white fw-semibold" href="#">
+                                        <div class="d-flex-row signupbttn">
+                                            <i class="fa-regular fa-user "
+                                                style="width: 12%; margin-right: 10px;"></i>Sign Up
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- home -->
+        <section id="home">
+            <div class="container px-4 text-center pt-5">
+                <div class="row gx-5 pt-4">
+                    <div class="col">
+                        <div class="p-4 pt-2">
+                            <div class="grid text-center">
+                                <div class="g-col-12">
+                                    <h1 class="fw-semibold homehead">Discover Digital Art & Collect Nfts</h1>
+                                </div>
+                                <div class="g-col-12 pt-3">
+                                    <p class="homepara">Nft Marketplace Ui Created With Anima For Figma. Collect, Buy
+                                        And Sell Art From More Than 20k Nft Artists.</p>
+                                </div>
+                                <div class="g-col-12 pt-3 mb-3">
+                                    <a class="homebttn" href="">
+                                        <i class="fa-solid fa-rocket"></i>
+                                        <span class="homebttntext fw-semibold ">Get Started</span>
+                                    </a>
+                                </div>
+                                <div class="g-col-12 pt-3">
+                                    <div class=" text-center">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class=" text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h1 class="homedigits">240k+</h1>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <p class="homedigittext">Total Sale</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class=" text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h1 class="homedigits">100k+</h1>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <p class="homedigittext">Auctions</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class=" text-center">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <h1 class="homedigits">240k+</h1>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <p class="homedigittext">Artists</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-0 homeright">
+                        <div class="p-1 homeright">
+                            <img class="homeright" src="./images/heroanimationtransparentbck-2.gif" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- trend -->
+        <section id="trend">
+            <div class="container ">
+                <div class="row w-100 " style="row-gap: 60px;">
+                    <!-- heading col -->
+                    <div class="col-12 ps-5">
+
+                        <div class="row" style="row-gap: 10px;">
+                            <div class="col-12">
+                                <h1 class="trendHead">Trending Collection</h1>
+                            </div>
+                            <div class="col-12">
+                                <p class="trendpara">Checkout our weekly updated trending collection.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- image col -->
+                    <div class="col-12">
+                        <!-- 3 image boxes -->
+                        <div class="row "> <!--style="column-gap:30px " -->
+                            <!-- 1 image box -->
+                            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center  trendImageBox ">
+                                <!-- image box 2 division -->
+                                <div class="row " style="row-gap: 15px;">
+                                    <!-- 1st division -->
+                                    <div class="col-12">
+                                        <!-- 1st division subs -->
+                                        <div class="row" style="row-gap: 15px;">
+                                            <!-- main image -->
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <img class="trendimage1" src="./images/tc1.png" alt="Image">
+                                            </div>
+                                            <!-- sub images -->
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <div class="row"> <!--style="column-gap:15px " -->
+                                                    <div class="col-4  trendSubImageDiv">
+                                                        <img class="trendsubimages" src="./images/tcs1.png" alt="image">
+                                                    </div>
+                                                    <div class="col-4  trendSubImageDiv">
+                                                        <img class="trendsubimages" src="./images/tcs2.png" alt="image">
+                                                    </div>
+                                                    <div class="col-4  trendSubImageDiv">
+                                                        <p class="trendsubdigits">1025+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2nd division -->
+                                    <div class="col-12">
+                                        <!-- 2nd division subs -->
+                                        <div class="row" style="row-gap: 10px;">
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <h1 class="trendImageName">Dsgn Animals</h1>
+                                            </div>
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <div class="trendAuthorBox">
+                                                    <img class="trendAuthorImage" src="./images/tcsauthor1.png"
+                                                        alt="image">
+                                                    <p class="trendAuthorName">MrFox</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 image box -->
+                            <div class="col-0 col-md-6 col-xl-4 trendImageBox  trendImageBox2">
+                                <!-- image box 2 division -->
+                                <div class="row trendImageBox2" style="row-gap: 15px;">
+                                    <!-- 1st division -->
+                                    <div class="col-12">
+                                        <!-- 1st division subs -->
+                                        <div class="row" style="row-gap: 15px;">
+                                            <!-- main image -->
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <img class="trendimage1" src="./images/tc2.png" alt="Image">
+                                            </div>
+                                            <!-- sub images -->
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <div class="row"> <!--style="column-gap:15px " -->
+                                                    <div class="col-4  trendSubImageDiv">
+                                                        <img class="trendsubimages" src="./images/tcs21.png"
+                                                            alt="image">
+                                                    </div>
+                                                    <div class="col-4  trendSubImageDiv">
+                                                        <img class="trendsubimages" src="./images/tcs22.png"
+                                                            alt="image">
+                                                    </div>
+                                                    <div class="col-4 trendSubImageDiv">
+                                                        <p class="trendsubdigits">1025+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2nd division -->
+                                    <div class="col-12">
+                                        <!-- 2nd division subs -->
+                                        <div class="row" style="row-gap: 10px;">
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <h1 class="trendImageName">Magic Mushrooms</h1>
+                                            </div>
+                                            <div class="col-12  d-flex align-items-center justify-content-center ">
+                                                <div class="trendAuthorBox">
+                                                    <img class="trendAuthorImage" src="./images/tcsauthor2.png"
+                                                        alt="image">
+                                                    <p class="trendAuthorName">Shroomie</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3 image box -->
+                            <div class="col-0 col-md-0 col-xl-4  trendImageBox trendImageBox3">
+                                <!-- image box 2 division -->
+                                <div class="row " style="row-gap: 15px;">
+                                    <!-- 1st division -->
+                                    <div class="col-12">
+                                        <!-- 1st division subs -->
+                                        <div class="row" style="row-gap: 15px;">
+                                            <!-- main image -->
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <img class="trendimage1" src="./images/tc3.png" alt="Image">
+                                            </div>
+                                            <!-- sub images -->
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <div class="row"> <!--style="column-gap:15px " -->
+                                                    <div class="col-4 trendSubImageDiv">
+                                                        <img class="trendsubimages" src="./images/tcs31.png"
+                                                            alt="image">
+                                                    </div>
+                                                    <div class="col-4 trendSubImageDiv">
+                                                        <img class="trendsubimages" src="./images/tcs32.png"
+                                                            alt="image">
+                                                    </div>
+                                                    <div class="col-4 trendSubImageDiv">
+                                                        <p class="trendsubdigits">1025+</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                <h1 class="trendImageName">Disco Machines</h1>
+                                            </div>
+                                            <div class="col-12  d-flex align-items-center justify-content-center ">
+                                                <div class="trendAuthorBox">
+                                                    <img class="trendAuthorImage" src="./images/tcsauthor3.png"
+                                                        alt="image">
+                                                    <p class="trendAuthorName">BeKind2Robots</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2nd division -->
+                                    <!-- <div class="col-12">
+                                    2nd division subs
+                                    <div class="row" style="row-gap: 10px;">
+                                        <div class="col-12">
+                                            <h1 class="trendImageName">Disco Machines</h1>
+                                        </div>
+                                        <div class="col-12 trendAuthorBox">
+                                            <img class="trendAuthorImage" src="./images/tcsauthor3.png" alt="image">
+                                            <p class="trendAuthorName">BeKind2Robots</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- creators -->
+        <section id="creators" class="pe-1">
+            <!-- divsion of creators into 2 -->
+            <div class="container text-center">
+                <div class="row">
+                    <!-- 1 section of creators -->
+                    <div class="col-12">
+                        <!-- head & para -->
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- head -->
+                                <div class="col-12 ">
+                                    <h1 class="creatorhead text-start ">Top Creators</h1>
+                                </div>
+                                <!-- para -->
+                                <div class="col-12">
+                                    <p class="creatorpara text-start ">Checkout Top Rated Creators On The Nft
+                                        Marketplace</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 section of creators -->
+                    <div class="col-12 ">
+                        <!-- creators -->
+                        <div class="container text-center ">
+                            <div class="row">
+                                <!-- layer 1 -->
+                                <div class="col-12 ps-0 ps-md-2 align-items-center  mb-xl-4">
+                                    <div class="container text-center ps-0 ps-md-2 ">
+                                        <div class="row ">
+                                            <!-- layer sub card 1 -->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator1.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Keepitreal</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 2-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator2.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">DigiLab</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 3-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator3.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">GravityOne</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 4-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator4.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Juanie</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- layer 2 -->
+                                <div class="col-12 ps-0 ps-md-2 align-items-center mb-xl-4 ">
+                                    <div class="container text-center ps-0 ps-md-2 ">
+                                        <div class="row ">
+                                            <!-- layer sub card 1 -->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator5.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">BlueWhale</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 2-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator6.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Mr Fox</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 3-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center  layer3">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator7.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Shroomie</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 4-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center  layer3">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator8.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Robotica</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- layer 3 -->
+                                <div class="col-12 ps-0 ps-md-2 align-items-center mb-xl-4 layer3">
+                                    <div class="container text-center ps-0 ps-md-2 ">
+                                        <div class="row ">
+                                            <!-- layer sub card 1 -->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0  d-flex justify-content-center ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator8.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">RustyRobot</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 2-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0 d-flex justify-content-center  ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator10.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Animakid</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 3-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0 d-flex justify-content-center  ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator11.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Dotgu</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- layer sub card 4-->
+                                            <div class="col-12 col-md-6 col-xl-3 ps-0 pb-2 pb-xl-0 d-flex justify-content-center  ">
+                                                <div class="creatorcard">
+                                                    <!-- dividion of card to 2 section -->
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- photo -->
+                                                            <div class="col-4 col-xl-12 pt-3 pt-xl-4">
+                                                                <img class="creatorImage" src="./images/creator12.png"
+                                                                    alt="image">
+                                                            </div>
+                                                            <!-- details -->
+                                                            <div class="col-8 col-xl-12 ">
+                                                                <div class="row ">
+                                                                    <!-- name -->
+                                                                    <div
+                                                                        class="col-12 pt-3 pt-xl-3 ps-0  text-start text-xl-center ">
+                                                                        <h1 class="creatorCardName">Ghiblier</h1>
+                                                                    </div>
+                                                                    <!-- sales -->
+                                                                    <div class="col-12">
+                                                                        <!-- sales division -->
+                                                                        <div
+                                                                            class="container text-start text-xl-center p-0">
+                                                                            <div class="row">
+                                                                                <div class="col-5 col-xl-6 p-0 ">
+                                                                                    <p
+                                                                                        class="creatorSalesHead p-0 text-start text-xl-end">
+                                                                                        Total Sales:</p>
+                                                                                </div>
+                                                                                <div class="col-6 ps-0 ps-xl-2">
+                                                                                    <p
+                                                                                        class="creatorSalesDigit text-start ">
+                                                                                        34.53 ETH</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section id="Categories">
+            <div class="container text-center">
+                <!-- 2 section -->
+                <div class="row">
+                    <!-- 1st section -->
+                    <div class="col-12 ">
+                        <!-- head -->
+                        <h1 class="creatorhead text-start ">Browse Categories</h1>
+                    </div>
+                    <!-- 2nd section -->
+                    <div class="col-12 mt-5">
+                        <!-- 2 layers -->
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- 1st layer -->
+                                <div class="col-12">
+                                    <div class="container text-center">
+                                        <div class="row">
+                                            <!-- card 1 -->
+                                            <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex justify-content-center ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage" src="./images/art.png"
+                                                                    alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/paintbrush-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Art</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 2 -->
+                                            <div class="col-12 col-sm-6  col-lg-3 mb-4  d-flex justify-content-center ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage"
+                                                                    src="./images/collectibles.png" alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/swatches-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Collectibles</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 3 -->
+                                            <div class="col-12 col-sm-6  col-lg-3  mb-4  d-flex justify-content-center ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage" src="./images/music.png"
+                                                                    alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/musicnotes-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Music</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 4 -->
+                                            <div class="col-12 col-sm-6  col-lg-3 mb-4  d-flex justify-content-center ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage"
+                                                                    src="./images/photography.png" alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/camera-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Photography</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 1 -->
+                                            <div class="col-12 col-sm-6  col-lg-3  mb-4  d-flex justify-content-center ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage" src="./images/video.png"
+                                                                    alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/videocamera-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Video</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 2 -->
+                                            <div class="col-12 col-sm-6  col-lg-3  mb-4  d-flex justify-content-center ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage" src="./images/utility.png"
+                                                                    alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/magicwand-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Utility</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 3 -->
+                                            <div class="col-12 col-sm-6   col-lg-3 mb-4 d-flex justify-content-center  ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage" src="./images/sport.png"
+                                                                    alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/basketball-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Sport</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- card 4 -->
+                                            <div class="col-12 col-sm-6  col-lg-3 mb-4 d-flex justify-content-center  ">
+                                                <div class="categoryCard">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <div class="col-12 p-0 categoryicondiv">
+                                                                <img class="categoryimage" src="./images/virtual.png"
+                                                                    alt="image">
+                                                                <div class="catergoryicondiv"><img class="categoryicon"
+                                                                        src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/planet-1@2x.svg"
+                                                                        alt="image"></div>
+                                                            </div>
+                                                            <div class="col-12 ">
+                                                                <h1 class="categoryimagedescp ">Virtual Worlds</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- discover -->
+        <section id="discover" class="pe-1 sectionalign">
+            <!-- divsion of discover into 2 -->
+            <div class="container text-center">
+                <div class="row">
+                    <!-- 1 section of discover -->
+                    <div class="col-12 ">
+                        <!-- head & para -->
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- head -->
+                                <div class="col-12 ">
+                                    <h1 class="creatorhead text-start ">Discover More NFTs</h1>
+                                </div>
+                                <!-- para -->
+                                <div class="col-12">
+                                    <p class="creatorpara text-start ">Explore new trending NFTs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 section of discover -->
+                    <div class="col-12 pt-5">
+                        <!-- divsion of card section -->
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- 1 card -->
+                                <div class="col-xl-4 col-md-6 col-12 mb-4  d-flex justify-content-center  ">
+                                    <div class="discoverCard">
+                                        <div class="container text-center">
+                                            <div class="row">
+                                                <!--card image -->
+                                                <div class="col-12 p-0">
+                                                    <img class="discoverCardImage" src="./images/distaant galaxy.png"
+                                                        alt="image">
+                                                </div>
+                                                <!-- card body -->
+                                                <div class="col-12 pt-3">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- card body heading -->
+                                                            <div class="col-12 ps-3 pt-1">
+                                                                <!-- 2nd division subs -->
+                                                                <div class="row" >
+                                                                    <div class="col-12 d-flex align-items-start  justify-content-center ">
+                                                                        <h1 class="trendImageName text-start mb-2">Distant Galaxy</h1>
+                                                                    </div>
+                                                                    <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                                        <div class="trendAuthorBox">
+                                                                            <img class="trendAuthorImage" src="./images/discover owner1.png"
+                                                                                alt="image">
+                                                                            <p class="trendAuthorName" style="font-family: Space Mono;">MoonDancer</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- card body price -->
+                                                            <div class="col-12 mt-3">
+                                                                <div class="container text-center">
+                                                                    <div class="row">
+                                                                        <!-- price left -->
+                                                                      <div class="col-6 p-0">
+                                                                        <div class="container text-center">
+                                                                            <div class="row">
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricehead">Price</p>
+                                                                              </div>
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricedigit m-0">1.63 ETH</p>
+                                                                              </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <!-- price right -->
+                                                                      <div class="col-6 p-0">
+                                                                        <div class="container text-center">
+                                                                            <div class="row">
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricehead text-end ">Highest Bid</p>
+                                                                              </div>
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricedigit m-0 text-end ">0.33 wETH</p>
+                                                                              </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      
+                                                                    </div>
+                                                                  </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--2 card -->
+                                <div class="col-xl-4 col-md-6 col-12 mb-4   d-flex justify-content-center ">
+                                    <div class="discoverCard">
+                                        <div class="container text-center">
+                                            <div class="row">
+                                                <!--card image -->
+                                                <div class="col-12 p-0">
+                                                    <img class="discoverCardImage" src="./images/life of eden.png"
+                                                        alt="image">
+                                                </div>
+                                                <!-- card body -->
+                                                <div class="col-12 pt-3">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- card body heading -->
+                                                            <div class="col-12 ps-3 pt-1">
+                                                                <!-- 2nd division subs -->
+                                                                <div class="row" >
+                                                                    <div class="col-12 d-flex align-items-start  justify-content-center ">
+                                                                        <h1 class="trendImageName text-start mb-2">Life On Edena</h1>
+                                                                    </div>
+                                                                    <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                                        <div class="trendAuthorBox">
+                                                                            <img class="trendAuthorImage" src="./images/discover owner2.png"
+                                                                                alt="image">
+                                                                            <p class="trendAuthorName" style="font-family: Space Mono;">NebulaKid</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- card body price -->
+                                                            <div class="col-12 mt-3">
+                                                                <div class="container text-center">
+                                                                    <div class="row">
+                                                                        <!-- price left -->
+                                                                      <div class="col-6 p-0">
+                                                                        <div class="container text-center">
+                                                                            <div class="row">
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricehead">Price</p>
+                                                                              </div>
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricedigit m-0">1.63 ETH</p>
+                                                                              </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <!-- price right -->
+                                                                      <div class="col-6 p-0">
+                                                                        <div class="container text-center">
+                                                                            <div class="row">
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricehead text-end ">Highest Bid</p>
+                                                                              </div>
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricedigit m-0 text-end ">0.33 wETH</p>
+                                                                              </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      
+                                                                    </div>
+                                                                  </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 card -->
+                                <div class="col-xl-4 col-md-0 col-12 mb-4 d-flex justify-content-center discovercard3">
+                                    <div class="discoverCard discovercard3">
+                                        <div class="container text-center">
+                                            <div class="row">
+                                                <!--card image -->
+                                                <div class="col-12 p-0">
+                                                    <img class="discoverCardImage" src="./images/astrofiction.png"
+                                                        alt="image">
+                                                </div>
+                                                <!-- card body -->
+                                                <div class="col-12 pt-3">
+                                                    <div class="container text-center">
+                                                        <div class="row">
+                                                            <!-- card body heading -->
+                                                            <div class="col-12 ps-3 pt-1">
+                                                                <!-- 2nd division subs -->
+                                                                <div class="row" >
+                                                                    <div class="col-12 d-flex align-items-start  justify-content-center ">
+                                                                        <h1 class="trendImageName text-start mb-2">Astrofiction</h1>
+                                                                    </div>
+                                                                    <div class="col-12 d-flex align-items-center justify-content-center ">
+                                                                        <div class="trendAuthorBox">
+                                                                            <img class="trendAuthorImage" src="./images/discover owner3.png"
+                                                                                alt="image">
+                                                                            <p class="trendAuthorName" style="font-family: Space Mono;">Spaceone</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- card body price -->
+                                                            <div class="col-12 mt-3">
+                                                                <div class="container text-center">
+                                                                    <div class="row">
+                                                                        <!-- price left -->
+                                                                      <div class="col-6 p-0">
+                                                                        <div class="container text-center">
+                                                                            <div class="row">
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricehead">Price</p>
+                                                                              </div>
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricedigit m-0">1.63 ETH</p>
+                                                                              </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <!-- price right -->
+                                                                      <div class="col-6 p-0">
+                                                                        <div class="container text-center">
+                                                                            <div class="row">
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricehead text-end ">Highest Bid</p>
+                                                                              </div>
+                                                                              <div class="col-12 p-0">
+                                                                                <p class="cardbodypricedigit m-0 text-end ">0.33 wETH</p>
+                                                                              </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      
+                                                                    </div>
+                                                                  </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- magic mushrooms -->
+        <section id="magicMushroom" class="mt-5 pt-2">
+            <div class="magicImageDiv ">
+                <div class="magicMushroomInner">
+                    <div class="magicMushroomText">
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- left text  -->
+                              <div class="col-12 col-md-6  ">
+                                <!-- divison into 3 section -->
+                                <div class="container text-center">
+                                    <div class="row row-gap-4 ">
+                                        <!-- author -->
+                                      <div class="col-12 magicMushroomAuthor">
+                                        <img class="trendAuthorImage" src="./images/tcsauthor2.png"
+                                        alt="image">
+                                        <p class="trendAuthorName ms-2 mb-0" >Shroomie</p>
+                                      </div>
+                                      <!-- heading -->
+                                      <div class="col-12 ps-0">
+                                        <h1 class="magicMashroomHead">Magic Mashrooms</h1>
+                                      </div>
+                                      <!-- button -->
+                                      <div class="col-12 text-start ps-0">
+                                        <button class="magicMushroomBttn">
+                                            <img src="./images/Eye.png" alt="">
+                                            <span class="ps-2">See NFT</span>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <!-- right text -->
+                              <div class="col-12 col-md-6 pt-5 pe-0">
+                                <!-- division into 2 part -->
+                                <div class="container text-center d-md-flex align-bottom justify-content-end ">
+                                    <div class="row magicMushroomTimer ">
+                                        <!-- heading -->
+                                      <div class="col-12 ps-0 ">
+                                        <p class="mMTimerHead">Auction ends in:</p>
+                                      </div>
+                                      <!-- timer -->
+                                      <div class="col-12 ps-0 ">
+                                        <div class="container text-center ps-0 ">
+                                            <div class="row">
+                                                <!-- hour col -->
+                                              <div class="col-4 d-flex " >
+                                                <div class="container text-center">
+                                                    <div class="row">
+                                                        <!-- digit -->
+                                                      <div class="col ps-0">
+                                                        <p class="mMTimerdigit mb-1 ">59</p>
+                                                      </div>
+                                                      <!-- caption -->
+                                                      <div class="col ps-0 ">
+                                                        <p class="mMTimerCaption">Hours</p>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                                <span class="mMTimerDot ps-2 ">:</span>
+                                              </div>
+                                              <!-- minu col -->
+                                              <div class="col-4 d-flex " >
+                                                <div class="container text-center">
+                                                    <div class="row">
+                                                        <!-- digit -->
+                                                      <div class="col ps-0">
+                                                        <p class="mMTimerdigit mb-1 ps-2">59</p>
+                                                      </div>
+                                                      <!-- caption -->
+                                                      <div class="col ps-0 ">
+                                                        <p class="mMTimerCaption ps-2 ">Minutes</p>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                                <span class="mMTimerDot ps-3">:</span>
+                                              </div>
+                                              <!-- sec col -->
+                                              <div class="col-4 d-flex " >
+                                                <div class="container text-center">
+                                                    <div class="row">
+                                                        <!-- digit -->
+                                                      <div class="col ps-0">
+                                                        <p class="mMTimerdigit mb-1 ps-3">59</p>
+                                                      </div>
+                                                      <!-- caption -->
+                                                      <div class="col ps-0 ">
+                                                        <p class="mMTimerCaption ps-3">Seconds</p>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- how it work -->
+        <section id="howItWork " class="mb-5">
+            <!-- divsion into 2 -->
+            <div class="container text-center">
+                <div class="row">
+                    <!-- 1 section of discover -->
+                    <div class="col-12 ">
+                        <!-- head & para -->
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- head -->
+                                <div class="col-12 ">
+                                    <h1 class="creatorhead text-start ">How It Works</h1>
+                                </div>
+                                <!-- para -->
+                                <div class="col-12">
+                                    <p class="creatorpara text-start ">Find Out How To Get Started</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 section of discover -->
+                    <div class="col-12 pt-5">
+                        <!-- divsion of card section -->
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- card1 -->
+                              <div class="col-12 col-md-4 mb-4 d-flex justify-content-center ">
+                                <!-- card -->
+                                <div class="card howItCard">
+                                    <img class="howItImage " src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/icon-3@2x.svg" class="card-img-top" alt="Image">
+                                    <div class="card-body">
+                                      <h5 class="card-title howItHead">Setup Your Wallet</h5>
+                                      <p class="card-text howItPara">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <!-- card2 -->
+                              <div class="col-12 col-md-4 mb-4 d-flex justify-content-center ">
+                                <!-- card -->
+                                <div class="card howItCard" >
+                                    <img class="howItImage " src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/icon-4@2x.svg" class="card-img-top" alt="Image">
+                                    <div class="card-body">
+                                      <h5 class="card-title howItHead">Create Collection</h5>
+                                      <p class="card-text howItPara">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+                                    </div>
+                                  </div>
+                              </div>
+                              <!-- card3 -->
+                              <div class="col-12 col-md-4 mb-4 d-flex justify-content-center ">
+                                <!-- card -->
+                                <div class="card howItCard">
+                                    <img class="howItImage " src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/icon-4@2x.svg" class="card-img-top" alt="Image">
+                                    <div class="card-body">
+                                      <h5 class="card-title howItHead">Start Earning</h5>
+                                      <p class="card-text howItPara">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.p>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- subscribe -->
+        <section id="subscribe" class="pt-5 mb-5">
+            <!-- subscribe panel -->
+            <div class="subDiv">
+                <!-- division into 2 -->
+                <div class="container text-center ">
+                    <div class="row subRow">
+                        <!-- image part -->
+                      <div class="col-12 col-md-6 p-0 ">
+                        <img class="subImage" src="./images/subscribe image.png" alt="Image">
+                      </div>
+                      <!-- text part -->
+                      <div class="col-12 col-md-6 subTextCol">
+                        <div class="container text-center">
+                            <div class="row">
+                                <!-- para & head -->
+                              <div class="col-12">
+                                <h1 class="subHead">Join Our Weekly Digest</h1>
+                                <p class="subPara">Get Exclusive Promotions & Updates Straight To Your Inbox.</p>
+                              </div>
+                              <!-- email -->
+                              <div class="col-12">
+                                <input class="subEmail" type="email" placeholder="Enter your email here" >
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section id="footer">
+            <div class="footer">
+                <div>
+                    <div class="container text-center">
+                        <div class="row">
+                        <!-- 1st col -->
+                          <div class="col-12 col-xl-4 mb-4">
+                            <div class="container text-center">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <h1 class="footerHead" >NFT Marketplace</h1>
+                                  </div>
+                                  <div class="col-12">
+                                    <p class="footerpara">NFT marketplace UI created with Anima for Figma.</p>
+                                  </div>
+                                  <div class="col-12">
+                                    <p class="footerpara">Join our community</p>
+                                  </div>
+                                  <div class="col-12 text-start ">
+                                    <span >
+                                        <i class="fa-brands fa-discord fa-flip fa-xl" style="color: #858584;"></i>
+                                        <i class="fa-brands fa-youtube fa-flip fa-xl" style="color: #858584;"></i>
+                                        <i class="fa-brands fa-twitter fa-flip fa-xl" style="color: #858584;"></i>
+                                        <i class="fa-brands fa-instagram fa-flip fa-xl" style="color: #858584;"></i>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <!-- 2nd col -->
+                          <div class="col-12 col-xl-4 mb-4">
+                            <div class="container text-center">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <h1 class="footerHead" >Explore</h1>
+                                  </div>
+                                  <div class="col-12">
+                                    <p class="footerpara">Marketplace</p>
+                                  </div>
+                                  <div class="col-12">
+                                    <p class="footerpara">Rankings</p>
+                                  </div>
+                                  <div class="col-12">
+                                    <p class="footerpara">Connect a wallet</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <!-- 3rd col -->
+                          <div class="col-12 col-lg-4 mb-4">
+                            <div class="container text-center">
+                                <div class="row">
+                                  <div class="col-12">
+                                    <h1 class="footerHead" >Join our weekly digest</h1>
+                                  </div>
+                                  <div class="col-12">
+                                    <p class="footerpara">Get exclusive promotions & updates straight to your inbox.</p>
+                                  </div>
+                                  <div class="col-12 text-start ">
+                                    <input class="footerEmail" type="email" placeholder="Enter your email here" >
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <hr style="color: #CCCCCC;">
+                <p style="color: #CCCCCC; font-size: 12px;">&copy NFT Market. Use this template freely.</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
+
